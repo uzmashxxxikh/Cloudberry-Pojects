@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day9.TC01_LaunchApplication"/>
+      <class name="day9.TC_06AddtoAffiliate"/>
+      <class name="day9.TC04_CompletePurchase"/>
+      <class name="day9.TC02_Login2_DataDriven"/>
+      <class name="day9.TC02_Login"/>
+      <class name="day9.TC03_AddToCart"/>
+      <class name="day9.Tc_05Addtowishlist"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
